@@ -1,0 +1,37 @@
+.event-form {
+    font-family: 'Roboto', sans-serif;
+}
+
+.create-event-button {
+    background-color: #7C3AED;
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-event-button:hover {
+    background-color: #6D28D9;
+}
+
+/* Custom Scrollbar */
+.event-form::-webkit-scrollbar {
+    width: 8px;
+}
+
+.event-form::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.event-form::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.event-form::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
